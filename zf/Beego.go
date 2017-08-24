@@ -4,6 +4,15 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Using(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) NewOrm(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Debug(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) RegisterModel(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

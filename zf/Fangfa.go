@@ -4,6 +4,9 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) ParseBool(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Duqujson(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

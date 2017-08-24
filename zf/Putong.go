@@ -4,6 +4,18 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Name(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Ormerbyname(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Defaultormer(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Boolstr(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Ziduanerror(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
