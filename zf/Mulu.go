@@ -4,6 +4,9 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Luyou(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Luyous(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
