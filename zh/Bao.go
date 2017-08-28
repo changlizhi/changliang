@@ -55,7 +55,7 @@ func (zh *Zh) Mysqlbao() string {
 	return ret
 }
 
-func (zh *Zh)Zfszh(mokuai string) string {
+func (zh *Zh)Zfszhtrue(mokuai string) string {
 	return zfszh(mokuai, zf.Zfs.True(true))
 }
 func (zh *Zh)Zfszhfalse(mokuai string) string {
