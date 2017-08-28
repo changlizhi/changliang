@@ -4,6 +4,9 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Url(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Name(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

@@ -16,6 +16,9 @@ func (zf *Zf) Debug(xiaoxie bool) string {
 func (zf *Zf) RegisterModel(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) RegisterDataBase(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Ormer(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

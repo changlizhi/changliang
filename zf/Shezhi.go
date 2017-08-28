@@ -19,6 +19,9 @@ func (zf *Zf) Duankou(xiaoxie bool) string {
 func (zf *Zf) Shujuku(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Shujukus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Shujukuip(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
