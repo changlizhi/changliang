@@ -4,6 +4,12 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Ziduancuowu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Suoyoucuowus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Luyou(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
@@ -20,6 +26,9 @@ func (zf *Zf) Shujukuduqu(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Kus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Ku(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Shujukuduqus(xiaoxie bool) string {
