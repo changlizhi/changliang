@@ -82,3 +82,50 @@ func (zh *Zh)Logszh(zhi string) string {
 		zfzhi.Zhi.Syh() + zfzhi.Zhi.Dou() + zhi + zfzhi.Zhi.Xkhy()
 	return ret
 }
+
+func (zh *Zh)AllowMethods() []string {
+	ret := []string{}
+	ret = append(ret, zf.Zfs.GET(false))
+	ret = append(ret, zf.Zfs.POST(false))
+	ret = append(ret, zf.Zfs.PUT(false))
+	ret = append(ret, zf.Zfs.DELETE(false))
+	ret = append(ret, zf.Zfs.OPTIONS(false))
+	return ret
+}
+func (zh *Zh)AllowHeaders() []string {
+	ret := []string{}
+	ret = append(ret, zf.Zfs.Origin(false))
+	ret = append(ret, zf.Zfs.Authorization(false))
+	//Access-Control-Allow-Origin
+	acao := zf.Zfs.Access(false) + zfzhi.Zhi.Jian() + zf.Zfs.Control(false) +
+		zfzhi.Zhi.Jian() + zf.Zfs.Allow(false) + zfzhi.Zhi.Jian() + zf.Zfs.Origin(false)
+	ret = append(ret, acao)
+
+	//Access-Control-Allow-Headers
+	acah := zf.Zfs.Access(false) + zfzhi.Zhi.Jian() + zf.Zfs.Control(false) +
+		zfzhi.Zhi.Jian() + zf.Zfs.Allow(false) + zfzhi.Zhi.Jian() + zf.Zfs.Headers(false)
+	ret = append(ret, acah)
+	//Content-Type
+	ct := zf.Zfs.Content(false) + zfzhi.Zhi.Jian() + zf.Zfs.Type(false)
+	ret = append(ret, ct)
+	return ret
+}
+func (zh *Zh)ExposeHeaders() []string {
+	ret := []string{}
+	//Content-Length
+	cl := zf.Zfs.Content(false) + zfzhi.Zhi.Jian() + zf.Zfs.Length(false)
+	ret = append(ret, cl)
+	//Access-Control-Allow-Origin
+	acao := zf.Zfs.Access(false) + zfzhi.Zhi.Jian() + zf.Zfs.Control(false) +
+		zfzhi.Zhi.Jian() + zf.Zfs.Allow(false) + zfzhi.Zhi.Jian() + zf.Zfs.Origin(false)
+	ret = append(ret, acao)
+
+	//Access-Control-Allow-Headers
+	acah := zf.Zfs.Access(false) + zfzhi.Zhi.Jian() + zf.Zfs.Control(false) +
+		zfzhi.Zhi.Jian() + zf.Zfs.Allow(false) + zfzhi.Zhi.Jian() + zf.Zfs.Headers(false)
+	ret = append(ret, acah)
+	//Content-Type
+	ct := zf.Zfs.Content(false) + zfzhi.Zhi.Jian() + zf.Zfs.Type(false)
+	ret = append(ret, ct)
+	return ret
+}

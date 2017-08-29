@@ -28,3 +28,7 @@ func (zf *Zf) Content(xiaoxie bool) string {
 func (zf *Zf) Application(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+
+func (zf *Zf) Length(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
