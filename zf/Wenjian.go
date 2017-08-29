@@ -19,6 +19,9 @@ func (zf *Zf) Bao(xiaoxie bool) string {
 func (zf *Zf) Beego(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Run(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Bianliang(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

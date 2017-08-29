@@ -40,6 +40,9 @@ func (zf *Zf) Panic(xiaoxie bool) string {
 func (zf *Zf) Print(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Dayin(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Println(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

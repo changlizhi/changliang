@@ -74,3 +74,11 @@ func (zh *Zh)Zhiszh(zhi string) string {
 		zfzhi.Zhi.Dh() + zhi + zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Xkhy()
 	return ret
 }
+//log.Println("xxx",xxx)
+func (zh *Zh)Logszh(zhi string) string {
+	ret := zf.Zfs.Log(true) + zfzhi.Zhi.Dh() + zf.Zfs.Println(false) +
+		zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Syh() + zhi +
+		zfzhi.Zhi.Mh() + zfzhi.Zhi.Dyh() + zfzhi.Zhi.Dyh() + zfzhi.Zhi.Dyh() + zfzhi.Zhi.Dyh() +
+		zfzhi.Zhi.Syh() + zfzhi.Zhi.Dou() + zhi + zfzhi.Zhi.Xkhy()
+	return ret
+}

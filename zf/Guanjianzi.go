@@ -40,6 +40,9 @@ func (zf *Zf) For(xiaoxie bool) string {
 func (zf *Zf) Func(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Main(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Go(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
