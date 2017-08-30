@@ -29,6 +29,25 @@ func (zf *Zf) Application(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 
+func (zf *Zf) AllowMethods(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+
+func (zf *Zf) AllowHeaders(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Length(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+
+func (zf *Zf) ExposeHeaders(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+
+func (zf *Zf) AllowCredentials(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+
+func (zf *Zf) AllowAllOrigins(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

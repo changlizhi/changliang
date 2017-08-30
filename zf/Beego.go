@@ -145,3 +145,15 @@ func (zf *Zf) Allow(xiaoxie bool) string {
 func (zf *Zf) Headers(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) InsertFilter(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) BeforeRouter(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Options(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Cors(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
