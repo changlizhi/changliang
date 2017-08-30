@@ -13,6 +13,9 @@ func (zf *Zf) Dev(xiaoxie bool) string {
 func (zf *Zf) Runmode(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Copyrequestbody(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Httpport(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
@@ -154,6 +157,12 @@ func (zf *Zf) BeforeRouter(xiaoxie bool) string {
 func (zf *Zf) Options(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Option(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Cors(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Plugins(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

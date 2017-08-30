@@ -112,6 +112,12 @@ func (zf *Zf) Word(xiaoxie bool) string {
 func (zf *Zf) Zf(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Zh(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Zhs(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Err(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

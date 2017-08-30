@@ -19,6 +19,24 @@ func (zh *Zh) Beegobao() string {
 		zfzhi.Zhi.Hhf()
 	return ret
 }
+func (zh *Zh) Beegocorsbao() string {
+	//"github.com/astaxie/beego/plugins/cors"
+	ret := zfzhi.Zhi.Syh() +
+		zf.Zfs.Github(true) +
+		zfzhi.Zhi.Dh() +
+		zf.Zfs.Com(true) +
+		zfzhi.Zhi.Xx() +
+		zf.Zfs.Astaxie(true) +
+		zfzhi.Zhi.Xx() +
+		zf.Zfs.Beego(true) +
+		zfzhi.Zhi.Xx() +
+		zf.Zfs.Plugins(true) +
+		zfzhi.Zhi.Xx() +
+		zf.Zfs.Cors(true) +
+		zfzhi.Zhi.Syh() +
+		zfzhi.Zhi.Hhf()
+	return ret
+}
 func (zh *Zh) Beegoormbao() string {
 	//"github.com/astaxie/beego/orm"
 	ret := zfzhi.Zhi.Syh() +
@@ -61,14 +79,20 @@ func (zh *Zh)Zfszhtrue(mokuai string) string {
 func (zh *Zh)Zfszhfalse(mokuai string) string {
 	return zfszh(mokuai, zf.Zfs.False(true))
 }
-func zfszh(mokuai string, boolstr string) string {
+//zh.Zhs.Xxx()
+func Zhszh(fangfa string) string {
+	ret := zf.Zfs.Zh(true) + zfzhi.Zhi.Dh() + zf.Zfs.Zhs(false) + zfzhi.Zhi.Dh() + fangfa + zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Xkhy()
+	return ret
+}
 
+//zf.Zfs.Xxx(true/false)
+func zfszh(mokuai string, boolstr string) string {
 	ret := zf.Zfs.Zf(true) + zfzhi.Zhi.Dh() + zf.Zfs.Zfs(false) +
 		zfzhi.Zhi.Dh() + mokuai + zfzhi.Zhi.Xkhz() +
 		boolstr + zfzhi.Zhi.Xkhy()
 	return ret
 }
-//zfzhi.Zhi.Kzf()
+//zfzhi.Zhi.xxx()
 func (zh *Zh)Zhiszh(zhi string) string {
 	ret := zf.Zfs.Zfzhi(true) + zfzhi.Zhi.Dh() + zf.Zfs.Zhi(false) +
 		zfzhi.Zhi.Dh() + zhi + zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Xkhy()
