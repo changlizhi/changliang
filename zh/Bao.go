@@ -171,8 +171,8 @@ func (zh *Zh)Conveybao() string {
 	//. "github.com/smartystreets/goconvey/convey"
 	ret := zfzhi.Zhi.Dh() + zfzhi.Zhi.Syh() + zf.Zfs.Github(true) +
 		zfzhi.Zhi.Dh() + zf.Zfs.Com(true) + zfzhi.Zhi.Xx() +
-		zf.Zfs.Smartystreets(true) + zf.Zfs.Goconvey(true) +
-		zf.Zfs.Convey(true) + zfzhi.Zhi.Syh()
+		zf.Zfs.Smartystreets(true) + zfzhi.Zhi.Xx() + zf.Zfs.Goconvey(true) +
+		zfzhi.Zhi.Xx() + zf.Zfs.Convey(true) + zfzhi.Zhi.Syh()
 	return ret
 }
 

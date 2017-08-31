@@ -35,6 +35,10 @@ func (zf *Zf) Shuzi9(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 
+func (zf *Zf) Shuzi10(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+
 func (zf *Zf) Shuzi0w(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
@@ -63,5 +67,9 @@ func (zf *Zf) Shuzi8w(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Shuzi9w(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+
+func (zf *Zf) Shuzi10w(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

@@ -7,7 +7,19 @@ import (
 func (zf *Zf) TestMainluyou(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Trace(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Handlers(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) ServeHTTP(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Mainluyou(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) BeeApp(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) App(xiaoxie bool) string {
