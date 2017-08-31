@@ -4,6 +4,15 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Code(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) And(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Bodylen(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Url(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

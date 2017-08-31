@@ -4,7 +4,16 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Localhost(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Net(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Http(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Httptest(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Tcp(xiaoxie bool) string {

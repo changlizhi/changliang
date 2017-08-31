@@ -153,3 +153,26 @@ func (zh *Zh)ExposeHeaders() []string {
 	ret = append(ret, ct)
 	return ret
 }
+func (zh *Zh)Httpbao() string {
+	//"net/http"
+	ret := zfzhi.Zhi.Syh() + zf.Zfs.Net(true) + zfzhi.Zhi.Xx() + zf.Zfs.Http(true) + zfzhi.Zhi.Syh()
+	return ret
+
+}
+
+func (zh *Zh)Httptestbao() string {
+	//"net/http/httptest"
+	ret := zfzhi.Zhi.Syh() + zf.Zfs.Net(true) + zfzhi.Zhi.Xx() + zf.Zfs.Http(true) +
+		zfzhi.Zhi.Xx() + zf.Zfs.Httptest(true) + zfzhi.Zhi.Syh()
+	return ret
+
+}
+func (zh *Zh)Conveybao() string {
+	//. "github.com/smartystreets/goconvey/convey"
+	ret := zfzhi.Zhi.Dh() + zfzhi.Zhi.Syh() + zf.Zfs.Github(true) +
+		zfzhi.Zhi.Dh() + zf.Zfs.Com(true) + zfzhi.Zhi.Xx() +
+		zf.Zfs.Smartystreets(true) + zf.Zfs.Goconvey(true) +
+		zf.Zfs.Convey(true) + zfzhi.Zhi.Syh()
+	return ret
+}
+

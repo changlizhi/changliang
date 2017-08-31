@@ -4,6 +4,15 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Convey(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Goconvey(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Smartystreets(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Sql(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
