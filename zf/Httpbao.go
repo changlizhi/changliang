@@ -17,3 +17,10 @@ func (zf *Zf) Header(xiaoxie bool) string {
 func (zf *Zf) Set(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+
+func (zf *Zf) Client(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Do(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}

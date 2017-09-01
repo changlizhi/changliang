@@ -76,6 +76,9 @@ func (zf *Zf) Orm(xiaoxie bool) string {
 func (zf *Zf) Read(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) ReadAll(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Insert(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
