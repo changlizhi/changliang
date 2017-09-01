@@ -11,3 +11,9 @@ func (zf *Zf) NewRecorder(xiaoxie bool) string {
 func (zf *Zf) Body(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Header(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Set(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
