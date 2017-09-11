@@ -64,6 +64,12 @@ func (zf *Zf) Kongzhiqis(xiaoxie bool) string {
 func (zf *Zf) Sjk(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Sjkhfxyonghu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Sjkmhsyyonghu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Appinits(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
