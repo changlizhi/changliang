@@ -94,6 +94,9 @@ func (zf *Zf) Now(xiaoxie bool) string {
 func (zf *Zf) Null(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Sc(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Zd(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
