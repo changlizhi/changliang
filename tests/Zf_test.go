@@ -1,9 +1,10 @@
 package tests
-import(
-	"testing"
-	"log"
+
+import (
 	"changliang/fanshe"
 	"changliang/zf"
+	"log"
+	"testing"
 )
 
 func TestPrintname(t *testing.T) {

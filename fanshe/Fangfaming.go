@@ -1,9 +1,9 @@
 package fanshe
 
 import (
+	"changliang/zfzhi"
 	"runtime"
 	"strings"
-	"changliang/zfzhi"
 )
 
 func Fangfaming(xiaoxie bool) string {
@@ -11,7 +11,7 @@ func Fangfaming(xiaoxie bool) string {
 	ff := runtime.FuncForPC(pc)
 	ffarr := strings.Split(ff.Name(), zfzhi.Zhi.Dh())
 
-	f := ffarr[len(ffarr) - zfzhi.Zhi.Shuzi1()]
+	f := ffarr[len(ffarr)-zfzhi.Zhi.Shuzi1()]
 	if xiaoxie {
 		return strings.ToLower(f)
 	}

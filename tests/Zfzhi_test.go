@@ -2,8 +2,8 @@ package tests
 
 import (
 	"changliang/zfzhi"
-	"testing"
 	"log"
+	"testing"
 )
 
 func TestPrintzhi(t *testing.T) {

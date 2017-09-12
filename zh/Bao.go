@@ -73,12 +73,13 @@ func (zh *Zh) Mysqlbao() string {
 	return ret
 }
 
-func (zh *Zh)Zfszhtrue(mokuai string) string {
+func (zh *Zh) Zfszhtrue(mokuai string) string {
 	return zfszh(mokuai, zf.Zfs.True(true))
 }
-func (zh *Zh)Zfszhfalse(mokuai string) string {
+func (zh *Zh) Zfszhfalse(mokuai string) string {
 	return zfszh(mokuai, zf.Zfs.False(true))
 }
+
 //zh.Zhs.Xxx()
 func Zhszh(fangfa string) string {
 	ret := zf.Zfs.Zh(true) + zfzhi.Zhi.Dh() + zf.Zfs.Zhs(false) + zfzhi.Zhi.Dh() + fangfa + zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Xkhy()
@@ -92,14 +93,16 @@ func zfszh(mokuai string, boolstr string) string {
 		boolstr + zfzhi.Zhi.Xkhy()
 	return ret
 }
+
 //zfzhi.Zhi.xxx()
-func (zh *Zh)Zhiszh(zhi string) string {
+func (zh *Zh) Zhiszh(zhi string) string {
 	ret := zf.Zfs.Zfzhi(true) + zfzhi.Zhi.Dh() + zf.Zfs.Zhi(false) +
 		zfzhi.Zhi.Dh() + zhi + zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Xkhy()
 	return ret
 }
+
 //log.Println("xxx",xxx)
-func (zh *Zh)Logszh(zhi string) string {
+func (zh *Zh) Logszh(zhi string) string {
 	ret := zf.Zfs.Log(true) + zfzhi.Zhi.Dh() + zf.Zfs.Println(false) +
 		zfzhi.Zhi.Xkhz() + zfzhi.Zhi.Syh() + zhi +
 		zfzhi.Zhi.Mh() + zfzhi.Zhi.Dyh() + zfzhi.Zhi.Dyh() + zfzhi.Zhi.Dyh() + zfzhi.Zhi.Dyh() +
@@ -107,7 +110,7 @@ func (zh *Zh)Logszh(zhi string) string {
 	return ret
 }
 
-func (zh *Zh)AllowMethods() []string {
+func (zh *Zh) AllowMethods() []string {
 	ret := []string{}
 	ret = append(ret, zf.Zfs.GET(false))
 	ret = append(ret, zf.Zfs.POST(false))
@@ -116,7 +119,7 @@ func (zh *Zh)AllowMethods() []string {
 	ret = append(ret, zf.Zfs.OPTIONS(false))
 	return ret
 }
-func (zh *Zh)AllowHeaders() []string {
+func (zh *Zh) AllowHeaders() []string {
 	ret := []string{}
 	ret = append(ret, zf.Zfs.Origin(false))
 	ret = append(ret, zf.Zfs.Authorization(false))
@@ -134,7 +137,7 @@ func (zh *Zh)AllowHeaders() []string {
 	ret = append(ret, ct)
 	return ret
 }
-func (zh *Zh)ExposeHeaders() []string {
+func (zh *Zh) ExposeHeaders() []string {
 	ret := []string{}
 	//Content-Length
 	cl := zf.Zfs.Content(false) + zfzhi.Zhi.Jian() + zf.Zfs.Length(false)
@@ -153,21 +156,21 @@ func (zh *Zh)ExposeHeaders() []string {
 	ret = append(ret, ct)
 	return ret
 }
-func (zh *Zh)Httpbao() string {
+func (zh *Zh) Httpbao() string {
 	//"net/http"
 	ret := zfzhi.Zhi.Syh() + zf.Zfs.Net(true) + zfzhi.Zhi.Xx() + zf.Zfs.Http(true) + zfzhi.Zhi.Syh()
 	return ret
 
 }
 
-func (zh *Zh)Httptestbao() string {
+func (zh *Zh) Httptestbao() string {
 	//"net/http/httptest"
 	ret := zfzhi.Zhi.Syh() + zf.Zfs.Net(true) + zfzhi.Zhi.Xx() + zf.Zfs.Http(true) +
 		zfzhi.Zhi.Xx() + zf.Zfs.Httptest(true) + zfzhi.Zhi.Syh()
 	return ret
 
 }
-func (zh *Zh)Conveybao() string {
+func (zh *Zh) Conveybao() string {
 	//. "github.com/smartystreets/goconvey/convey"
 	ret := zfzhi.Zhi.Dh() + zfzhi.Zhi.Syh() + zf.Zfs.Github(true) +
 		zfzhi.Zhi.Dh() + zf.Zfs.Com(true) + zfzhi.Zhi.Xx() +
@@ -175,4 +178,3 @@ func (zh *Zh)Conveybao() string {
 		zfzhi.Zhi.Xx() + zf.Zfs.Convey(true) + zfzhi.Zhi.Syh()
 	return ret
 }
-

@@ -2,8 +2,8 @@ package tests
 
 import (
 	"changliang/zh"
-	"testing"
 	"log"
+	"testing"
 )
 
 func TestPrintzh(t *testing.T) {
