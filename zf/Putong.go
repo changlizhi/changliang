@@ -175,3 +175,9 @@ func (zf *Zf) RequestBody(xiaoxie bool) string {
 func (zf *Zf) Marshal(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Quanbu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Liebiao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
