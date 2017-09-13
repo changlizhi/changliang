@@ -55,3 +55,7 @@ func (zf *Zf) Chaxun(xiaoxie bool) string {
 func (zf *Zf) Shanchu(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+
+func (zf *Zf) Chaxunquanbu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}

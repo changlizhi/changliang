@@ -4,6 +4,15 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) All(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) QuerySeter(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) QueryTable(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) TestMainluyou(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
