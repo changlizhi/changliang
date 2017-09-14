@@ -13,6 +13,9 @@ func (bl *Bl) Biaoji(xiaoxie bool) string {
 func (bl *Bl) Bianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (bl *Bl) Fubianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (bl *Bl) Mingcheng(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
@@ -37,3 +40,13 @@ func (bl *Bl) Zhi(xiaoxie bool) string {
 func (bl *Bl) Xinxibianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (bl *Bl) Paixu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (bl *Bl) Chuangjianriqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (bl *Bl) Xiugairiqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+

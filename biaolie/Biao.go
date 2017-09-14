@@ -25,3 +25,6 @@ func (bl *Bl) Yanzheng(xiaoxie bool) string {
 func (bl *Bl) Yanzhengleixing(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (bl *Bl) Dtziyuan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
