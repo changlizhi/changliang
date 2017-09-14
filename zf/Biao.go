@@ -7,6 +7,9 @@ import (
 func (zf *Zf) Juese(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Dtziyuan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Juesequanxian(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

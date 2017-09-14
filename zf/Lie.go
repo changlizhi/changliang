@@ -7,10 +7,16 @@ import (
 func (zf *Zf) Id(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Paixu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Biaoji(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Bianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Fubianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Mingcheng(xiaoxie bool) string {
