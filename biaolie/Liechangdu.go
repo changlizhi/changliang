@@ -8,9 +8,12 @@ func (bl *Bl) Idchangdu() int {
 	return zfzhi.Zhi.Shuzi10()
 }
 func (bl *Bl) Biaojichangdu() int {
-	return zfzhi.Zhi.Shuzi5() * zfzhi.Zhi.Shuzi10() * zfzhi.Zhi.Shuzi10()
+	return zfzhi.Zhi.Shuzi5() * zfzhi.Zhi.Shuzi5() * zfzhi.Zhi.Shuzi10()
 }
 func (bl *Bl) Bianmachangdu() int {
+	return zfzhi.Zhi.Shuzi5() * zfzhi.Zhi.Shuzi10()
+}
+func (bl *Bl) Fubianmachangdu() int {
 	return zfzhi.Zhi.Shuzi5() * zfzhi.Zhi.Shuzi10()
 }
 func (bl *Bl) Mingchengchangdu() int {
@@ -36,4 +39,13 @@ func (bl *Bl) Zhichangdu() int {
 }
 func (bl *Bl) Xinxibianmachangdu() int {
 	return zfzhi.Zhi.Shuzi5() * zfzhi.Zhi.Shuzi10()
+}
+func (bl *Bl) Paixuchangdu() int {
+	return zfzhi.Zhi.Shuzi10()
+}
+func (bl *Bl) Chuangjianriqichangdu() int {
+	return zfzhi.Zhi.Shuzi2() * zfzhi.Zhi.Shuzi10()
+}
+func (bl *Bl) Xiugairiqichangdu() int {
+	return zfzhi.Zhi.Shuzi2() * zfzhi.Zhi.Shuzi10()
 }

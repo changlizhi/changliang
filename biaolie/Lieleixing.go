@@ -71,3 +71,28 @@ func (bl *Bl) Xinxibianmaleixingzhi() string {
 	}
 	return zfzhi.Zhi.Kzf()
 }
+
+func (bl *Bl) Fubianmaleixingzhi() string {
+	if z := bl.Fubianma(false); z != zfzhi.Zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zfzhi.Zhi.Kzf()
+}
+func (bl *Bl) Paixuleixingzhi() string {
+	if z := bl.Paixu(false); z != zfzhi.Zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zfzhi.Zhi.Kzf()
+}
+func (bl *Bl) Chuangjianriqileixingzhi() string {
+	if z := bl.Chuangjianriqi(false); z != zfzhi.Zhi.Kzf() {
+		return zf.Zfs.Time(true)
+	}
+	return zfzhi.Zhi.Kzf()
+}
+func (bl *Bl) Xiugairiqileixingzhi() string {
+	if z := bl.Xiugairiqi(false); z != zfzhi.Zhi.Kzf() {
+		return zf.Zfs.Time(true)
+	}
+	return zfzhi.Zhi.Kzf()
+}
