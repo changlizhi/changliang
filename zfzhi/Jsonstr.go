@@ -56,3 +56,12 @@ func (zfzhi *Zfzhi) Patchyanzhengleixing() string {
 	ret := `{"Id":1,"Bianma":"Mimaxiugai","Mingcheng":"密码验证xiugaxiugaii","Biaoji":"Youxiao"}`
 	return ret
 }
+
+func (zfzhi *Zfzhi) Patchdtziyuan() string {
+	ret := `{"Id":1,"Bianma":"Mimaxiugai","Mingcheng":"密码验证xiugaxiugaii","Biaoji":"Youxiao"}`
+	return ret
+}
+func (zfzhi *Zfzhi) Postdtziyuan() string {
+	ret := `{"Id":1,"Bianma":"Mimaxiugai","Mingcheng":"密码验证xiugaxiugaii","Biaoji":"Youxiao"}`
+	return ret
+}
