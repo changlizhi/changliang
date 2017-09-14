@@ -80,7 +80,7 @@ func (bl *Bl) Fubianmaleixingzhi() string {
 }
 func (bl *Bl) Paixuleixingzhi() string {
 	if z := bl.Paixu(false); z != zfzhi.Zhi.Kzf() {
-		return zf.Zfs.String(true)
+		return zf.Zfs.Int(true)
 	}
 	return zfzhi.Zhi.Kzf()
 }
