@@ -163,6 +163,9 @@ func (zf *Zf) Param(xiaoxie bool) string {
 func (zf *Zf) Pages(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Jige(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Pagesfrom(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
