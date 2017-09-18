@@ -4,6 +4,15 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Filter(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) OrderBy(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Limit(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Exact(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
