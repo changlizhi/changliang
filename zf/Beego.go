@@ -4,6 +4,9 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Exact(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) All(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
