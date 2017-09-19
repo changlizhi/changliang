@@ -13,3 +13,9 @@ func (zf *Zf) Function(xiaoxie bool) string {
 func (zf *Zf) Lieming(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Common(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Js(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
