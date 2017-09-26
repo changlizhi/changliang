@@ -55,7 +55,27 @@ func (zf *Zf) Chaxun(xiaoxie bool) string {
 func (zf *Zf) Shanchu(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
-
 func (zf *Zf) Chaxunquanbu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestTianjiaduogeDtziyuankus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestTianjiayigeDtziyuankus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestXiugaiyigeDtziyuankus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestChaxunyigeDtziyuankus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestShanchuyigeDtziyuan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestChaxunquanbuDtziyuankus(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) TestShanchutiaojiankus(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
