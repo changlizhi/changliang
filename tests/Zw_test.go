@@ -1,9 +1,9 @@
 package tests
 
 import (
+	"changliang/zw"
 	"log"
 	"testing"
-	"changliang/zw"
 )
 
 func TestPrintzw(t *testing.T) {

@@ -49,4 +49,3 @@ func (bl *Bl) Chuangjianriqi(xiaoxie bool) string {
 func (bl *Bl) Xiugairiqi(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
-
