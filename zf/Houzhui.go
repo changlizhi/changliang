@@ -15,3 +15,6 @@ func (zf *Zf) Jibie(xiaoxie bool) string {
 func (zf *Zf) Path(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Tiaojian(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
