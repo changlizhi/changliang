@@ -85,3 +85,6 @@ func (zf *Zf) TestTianjiayigeyewus(xiaoxie bool) string {
 func (zf *Zf) TestPostdtziyuan(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) TestDtziyuanpost(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
