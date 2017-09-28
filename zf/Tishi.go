@@ -31,3 +31,6 @@ func (zf *Zf) Tishi08(xiaoxie bool) string {
 func (zf *Zf) Tishi09(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Tishi10(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
