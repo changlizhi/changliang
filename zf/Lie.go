@@ -208,3 +208,12 @@ func (zf *Zf) Zhi(xiaoxie bool) string {
 func (zf *Zf) Xinxibianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Fuwuganshou(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shentiganshou(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Xiaoguokeping(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
