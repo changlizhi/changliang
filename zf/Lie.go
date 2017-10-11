@@ -4,6 +4,12 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Xiugairiqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Chuangjianriqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Id(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
