@@ -13,6 +13,9 @@ func (zf *Zf) Dtziyuan(xiaoxie bool) string {
 func (zf *Zf) Juesequanxian(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Jueseziyuan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Quanxian(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
