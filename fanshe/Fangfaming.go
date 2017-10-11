@@ -1,17 +1,16 @@
 package fanshe
 
 import (
-	"changliang/zfzhi"
 	"runtime"
 	"strings"
 )
 
 func Fangfaming(xiaoxie bool) string {
-	pc, _, _, _ := runtime.Caller(zfzhi.Zhi.Shuzi1())
+	pc, _, _, _ := runtime.Caller(1)
 	ff := runtime.FuncForPC(pc)
-	ffarr := strings.Split(ff.Name(), zfzhi.Zhi.Dh())
+	ffarr := strings.Split(ff.Name(), ".")
 
-	f := ffarr[len(ffarr)-zfzhi.Zhi.Shuzi1()]
+	f := ffarr[len(ffarr) - 1]
 	if xiaoxie {
 		return strings.ToLower(f)
 	}
