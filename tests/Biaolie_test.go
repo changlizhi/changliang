@@ -1,11 +1,11 @@
 package tests
 
 import (
-	"changliang/biaolie"
 	"log"
 	"testing"
+	"changliang/zfzhi"
 )
 
 func TestPrintbiaos(t *testing.T) {
-	log.Println(biaolie.Bls.Bianmachangdu())
+	log.Println(zfzhi.Zhi.Bianmachangdu())
 }
