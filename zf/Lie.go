@@ -217,3 +217,9 @@ func (zf *Zf) Shentiganshou(xiaoxie bool) string {
 func (zf *Zf) Xiaoguokeping(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Cankao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Zhidingren(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
