@@ -37,9 +37,6 @@ func (zf *Zf) Zfs(xiaoxie bool) string {
 func (zf *Zf) Wenti(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
-func (zf *Zf) Shijian(xiaoxie bool) string {
-	return fanshe.Fangfaming(xiaoxie)
-}
 func (zf *Zf) Shiti(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
@@ -50,9 +47,6 @@ func (zf *Zf) Ip(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Mima(xiaoxie bool) string {
-	return fanshe.Fangfaming(xiaoxie)
-}
-func (zf *Zf) Yonghu(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) False(xiaoxie bool) string {
