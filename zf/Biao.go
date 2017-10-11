@@ -67,3 +67,15 @@ func (zf *Zf) Yonghu(xiaoxie bool) string {
 func (zf *Zf) Yonghujibing(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Wenzhang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Liuyan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Fuwufankui(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Xiangmushuju(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
