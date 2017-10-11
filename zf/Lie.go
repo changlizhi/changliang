@@ -4,6 +4,165 @@ import (
 	"changliang/fanshe"
 )
 
+func (zf *Zf) Jiazubingshi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Buliangfanying(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Qita(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Exingzhongliu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Ganran(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Pifubing(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Xinnaoxueguanbing(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Ganyu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Jiliang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Zhusheliang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Zhushe(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Fuyaoliang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Fuyao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tanghuaxuehongdanbai(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Canhouerxiaoshi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Kongfu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tangniaobing(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Linchuangzhenduan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Jiankangzhuangkuang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Jiankangtouzi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yundongshijian(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yundongcishu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yundongleixing(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shifouhejiu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shifouxiyan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shuimianzhuangtai(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yinshixiguan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Hunfou(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Wenhuachengdu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Chushengriqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Minzu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tizhong(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shengao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Zhiye(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Nianling(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Xingbie(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Qidongriqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Touxiang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shijianbianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Qiyong(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Xiangmuzubianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yixuebianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Xiangmubianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Danwei(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Jiamifangshi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shebeihao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Weiyibianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Miaoshu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Caozuoren(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Youxiaoxing(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Caozuoriqi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Neirong(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shifoufabu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Xiugairiqi(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
