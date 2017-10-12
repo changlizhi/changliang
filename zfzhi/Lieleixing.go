@@ -449,7 +449,7 @@ func (zhi *Zfzhi) Youxiaoxingleixingzhi() string {
 func (zhi *Zfzhi) Caozuoriqileixingzhi() string {
 
 	if z := zf.Zfs.Caozuoriqi(false); z != zhi.Kzf() {
-		return zf.Zfs.String(true)
+		return zf.Zfs.Time(true)
 	}
 	return zhi.Kzf()
 }
