@@ -172,6 +172,15 @@ func (zf *Zf) Chuangjianriqi(xiaoxie bool) string {
 func (zf *Zf) Id(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Bofangshijian(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Jinzhixiazai(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yinpinbianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Paixu(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

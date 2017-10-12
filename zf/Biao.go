@@ -43,6 +43,12 @@ func (zf *Zf) Shebei(xiaoxie bool) string {
 func (zf *Zf) Yinpin(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Yinpinbofang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yinpinxiazai(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Xiangmu(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

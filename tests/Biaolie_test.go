@@ -45,6 +45,8 @@ func TestPrintbiaolie(t *testing.T) {
 		"Chujinfangan",
 		"Shebei",
 		"Yinpin",
+		"Yinpinbofang",
+		"Yinpinxiazai",
 	}
 	for _, b := range biaoarr {
 		buffer := &bytes.Buffer{}
