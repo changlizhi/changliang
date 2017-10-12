@@ -42,7 +42,7 @@ func TestPrintbiaolie(t *testing.T) {
 		"Liuyan",
 		"Fuwufankui",
 		"Xiangmushuju",
-		"Chujinfangan",
+		"Cujinfangan",
 		"Shebei",
 		"Yinpin",
 		"Yinpinbofang",

@@ -94,6 +94,6 @@ func (zf *Zf) Xiangmuzushijian(xiaoxie bool) string {
 func (zf *Zf) Jibing(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
-func (zf *Zf) Chujinfangan(xiaoxie bool) string {
+func (zf *Zf) Cujinfangan(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
