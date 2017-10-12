@@ -10,7 +10,7 @@ func Fangfaming(xiaoxie bool) string {
 	ff := runtime.FuncForPC(pc)
 	ffarr := strings.Split(ff.Name(), ".")
 
-	f := ffarr[len(ffarr) - 1]
+	f := ffarr[len(ffarr)-1]
 	if xiaoxie {
 		return strings.ToLower(f)
 	}

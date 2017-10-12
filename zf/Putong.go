@@ -46,6 +46,9 @@ func (zf *Zf) Qudong(xiaoxie bool) string {
 func (zf *Zf) Ip(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Xiaoxie(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Mima(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
