@@ -249,3 +249,6 @@ func (zhi *Zfzhi) Huifuyonghuchangdu() int {
 func (zhi *Zfzhi) Liuyanyonghuchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
+func (zhi *Zfzhi) Shijianchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}

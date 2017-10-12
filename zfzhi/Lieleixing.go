@@ -567,3 +567,11 @@ func (zhi *Zfzhi) Liuyanyonghuleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+
+func (zhi *Zfzhi) Shijianleixingzhi() string {
+
+	if z := zf.Zfs.Shijian(false); z != zhi.Kzf() {
+		return zf.Zfs.Time(true)
+	}
+	return zhi.Kzf()
+}
