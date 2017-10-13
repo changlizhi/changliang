@@ -1,5 +1,7 @@
 package zfzhi
 
+import "strconv"
+
 func (zfzhi *Zfzhi) Shuzifu1() int {
 	return -1
 }
@@ -72,4 +74,10 @@ func (zfzhi *Zfzhi) Shuzi9w() string {
 }
 func (zfzhi *Zfzhi) Shuzi10w() string {
 	return "10"
+}
+func (zfzhi *Zfzhi) Ishuzi1(zifu bool) interface{} {
+	if !zifu {
+		return 1
+	}
+	return strconv.Itoa(1)
 }
