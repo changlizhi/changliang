@@ -13,3 +13,7 @@ func (zf *Zf) Mhsyyonghu(xiaoxie bool) string {
 func (zf *Zf) Mhsydata(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+
+func (zf *Zf) Mhsy(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
