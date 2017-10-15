@@ -30,3 +30,15 @@ func (zw *Zw) Qudong() string {
 func (zw *Zw) Mima() string {
 	return "密码"
 }
+func (zw *Zw) Jsonmojiming() string {
+	return "Jsonmoji结构体名称"
+}
+func (zw *Zw) Guilei() string {
+	return "归类"
+}
+func (zw *Zw) Guojihua() string {
+	return "国际化"
+}
+func (zw *Zw) Shezhi() string {
+	return "设置"
+}
