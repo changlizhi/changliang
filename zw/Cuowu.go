@@ -1,4 +1,5 @@
 package zw
+
 func (zw *Zw) Error01() string {
 	return "系统异常提示"
 }
