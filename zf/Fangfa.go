@@ -10,6 +10,9 @@ func (zf *Zf) ParseBool(xiaoxie bool) string {
 func (zf *Zf) Duqujson(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Fanshejiexi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Jiexi(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
