@@ -342,3 +342,16 @@ func (zw *Zw) Huifuyonghu() string {
 func (zw *Zw) Liuyanyonghu() string {
 	return "留言用户"
 }
+
+func (zw *Zw) Ganranqita() string {
+	return "其他感染病"
+}
+func (zw *Zw) Pifubingqita() string {
+	return "其他皮肤病"
+}
+func (zw *Zw) Xinnaoxueguanbingqita() string {
+	return "其他心脑血管病"
+}
+func (zw *Zw) Guize() string {
+	return "规则"
+}

@@ -252,3 +252,16 @@ func (zhi *Zfzhi) Liuyanyonghuchangdu() int {
 func (zhi *Zfzhi) Shijianchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
+
+func (zhi *Zfzhi) Ganranqitachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Pifubingqitachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Xinnaoxueguanbingqitachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Guizechangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}

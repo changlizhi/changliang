@@ -575,3 +575,32 @@ func (zhi *Zfzhi) Shijianleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+func (zhi *Zfzhi) Ganranqitaleixingzhi() string {
+
+	if z := zf.Zfs.Ganranqita(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+
+func (zhi *Zfzhi) Pifubingqitaleixingzhi() string {
+
+	if z := zf.Zfs.Pifubingqita(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Xinnaoxueguanbingqitaleixingzhi() string {
+
+	if z := zf.Zfs.Xinnaoxueguanbingqita(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Guizeleixingzhi() string {
+
+	if z := zf.Zfs.Guize(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
