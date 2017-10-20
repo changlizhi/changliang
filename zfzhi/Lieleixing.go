@@ -604,3 +604,10 @@ func (zhi *Zfzhi) Guizeleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+func (zhi *Zfzhi) Bianhaoleixingzhi() string {
+
+	if z := zf.Zfs.Bianhao(false); z != zhi.Kzf() {
+		return zf.Zfs.Int(true)
+	}
+	return zhi.Kzf()
+}

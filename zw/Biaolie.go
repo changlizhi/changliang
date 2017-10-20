@@ -355,3 +355,6 @@ func (zw *Zw) Xinnaoxueguanbingqita() string {
 func (zw *Zw) Guize() string {
 	return "规则"
 }
+func (zw *Zw) Bianhao() string {
+	return "编号"
+}
