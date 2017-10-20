@@ -214,6 +214,9 @@ func (zf *Zf) Youxiang(xiaoxie bool) string {
 func (zf *Zf) Leixing(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Bianhao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Zhi(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
