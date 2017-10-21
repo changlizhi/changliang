@@ -358,3 +358,40 @@ func (zw *Zw) Guize() string {
 func (zw *Zw) Bianhao() string {
 	return "编号"
 }
+
+func (zw *Zw) Yonghubianma() string {
+	return "用户编码"
+}
+
+func (zw *Zw) Shoujihao() string {
+	return "手机号"
+}
+
+func (zw *Zw) Ziduan() string {
+	return "字段"
+}
+
+func (zw *Zw) Yonghujuesebianma() string {
+	return "编号"
+}
+func (zw *Zw) Chaojipeizhi() string {
+	return "超级配置"
+}
+func (zw *Zw) Yonghujuesebiao() string {
+	return "用户角色表"
+}
+func (zw *Zw) Yonghujueseshuju() string {
+	return "用户角色数据"
+}
+func (zw *Zw) Jueseshuju() string {
+	return "角色数据"
+}
+func (zw *Zw) Juesebiao() string {
+	return "角色表"
+}
+func (zw *Zw) Yonghushuju() string {
+	return "用户数据"
+}
+func (zw *Zw) Yonghubiao() string {
+	return "用户表"
+}

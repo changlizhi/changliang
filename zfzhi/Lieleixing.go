@@ -611,3 +611,40 @@ func (zhi *Zfzhi) Bianhaoleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+
+func (zhi *Zfzhi) Yonghubianmaleixingzhi() string {
+
+	if z := zf.Zfs.Yonghubianma(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+
+func (zhi *Zfzhi) Shoujihaoleixingzhi() string {
+
+	if z := zf.Zfs.Shoujihao(false); z != zhi.Kzf() {
+		return zf.Zfs.Int(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Ziduanleixingzhi() string {
+
+	if z := zf.Zfs.Ziduan(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Yonghujuesebianmaleixingzhi() string {
+
+	if z := zf.Zfs.Yonghujuesebianma(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Mimaleixingzhi() string {
+
+	if z := zf.Zfs.Mima(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}

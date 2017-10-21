@@ -199,6 +199,9 @@ func (zf *Zf) Mingcheng(xiaoxie bool) string {
 func (zf *Zf) Juesebianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Yonghubianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
 func (zf *Zf) Ziyuanbianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
@@ -209,6 +212,9 @@ func (zf *Zf) Lujing(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Youxiang(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Shoujihao(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Leixing(xiaoxie bool) string {
@@ -265,5 +271,11 @@ func (zf *Zf) Xinnaoxueguanbingqita(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Guize(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Ziduan(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Yonghujuesebianma(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }

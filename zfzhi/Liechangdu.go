@@ -268,3 +268,18 @@ func (zhi *Zfzhi) Guizechangdu() int {
 func (zhi *Zfzhi) Bianhaochangdu() int {
 	return zhi.Shuzi10()
 }
+func (zhi *Zfzhi) Yonghubianmachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Mimachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Yonghujuesebianmachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Ziduanchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Shoujihaochangdu() int {
+	return zhi.Shuzi5() + zhi.Shuzi10()
+}

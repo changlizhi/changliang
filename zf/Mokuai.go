@@ -17,3 +17,6 @@ func (zf *Zf) Mhsydata(xiaoxie bool) string {
 func (zf *Zf) Mhsy(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Chaojipeizhi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
