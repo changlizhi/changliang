@@ -280,6 +280,15 @@ func (zhi *Zfzhi) Yonghujuesebianmachangdu() int {
 func (zhi *Zfzhi) Ziduanchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
+func (zhi *Zfzhi) Ziduanbianmachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
 func (zhi *Zfzhi) Shoujihaochangdu() int {
-	return zhi.Shuzi5() + zhi.Shuzi10()
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Ziduanleixingchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Zhutibianmachangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
 }

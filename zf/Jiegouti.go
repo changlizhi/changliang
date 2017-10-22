@@ -95,3 +95,6 @@ func (zf *Zf) ADMIN(xiaoxie bool) string {
 func (zf *Zf) Youxiao(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Zhutibianma(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}

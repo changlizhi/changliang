@@ -648,3 +648,25 @@ func (zhi *Zfzhi) Mimaleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+
+func (zhi *Zfzhi) Ziduanbianma() string {
+
+	if z := zf.Zfs.Ziduan(false) + zf.Zfs.Bianma(true); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Ziduanleixing() string {
+
+	if z := zf.Zfs.Ziduan(false) + zf.Zfs.Leixing(true); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Zhutibianmaleixing() string {
+
+	if z := zf.Zfs.Zhutibianma(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}

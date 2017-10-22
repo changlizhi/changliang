@@ -395,3 +395,12 @@ func (zw *Zw) Yonghushuju() string {
 func (zw *Zw) Yonghubiao() string {
 	return "用户表"
 }
+func (zw *Zw) Ziduanbianma() string {
+	return "字段编码"
+}
+func (zw *Zw) Ziduanleixing() string {
+	return "字段类型"
+}
+func (zw *Zw) Zhutibianma() string {
+	return "主体编码"
+}
