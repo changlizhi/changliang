@@ -291,3 +291,18 @@ func (zf *Zf) Ziduanleixing(xiaoxie bool) string {
 func (zf *Zf) Ziduanmingcheng(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Jianceshuju(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tizhengzhibiaozuzhibiao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tizhengzhibiaozushijian(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tizhengzhibiaozu(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
+func (zf *Zf) Tizhengzhibiao(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}

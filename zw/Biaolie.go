@@ -407,3 +407,18 @@ func (zw *Zw) Zhutibianma() string {
 func (zw *Zw) Ziduanmingcheng() string {
 	return "字段名称"
 }
+func (zw *Zw) Jianceshuju() string {
+	return "监测数据"
+}
+func (zw *Zw) Tizhengzhibiaozuzhibiao() string {
+	return "体征指标组指标"
+}
+func (zw *Zw) Tizhengzhibiaozushijian() string {
+	return "体征指标组时间"
+}
+func (zw *Zw) Tizhengzhibiaozu() string {
+	return "体征指标组"
+}
+func (zw *Zw) Tizhengzhibiao() string {
+	return "体征指标"
+}

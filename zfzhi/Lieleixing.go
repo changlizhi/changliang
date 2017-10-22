@@ -677,3 +677,33 @@ func (zhi *Zfzhi) Ziduanmingchengleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+func (zhi *Zfzhi) Jianceshujuleixingzhi() string {
+	if z := zf.Zfs.Jianceshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozuzhibiaoleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaozu(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozushijianleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaozushijian(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozuleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaozu(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaoleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiao(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
