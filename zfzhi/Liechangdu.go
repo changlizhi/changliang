@@ -310,74 +310,9 @@ func (zhi *Zfzhi) Tizhengzhibiaozuchangdu() int {
 func (zhi *Zfzhi) Tizhengzhibiaochangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
-func (zhi *Zfzhi) Jueseshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-
-func (zhi *Zfzhi) Yinpinshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Tizhengzhibiaoshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Shebeishujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Ziyuanshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Zhanghaoshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Yonghushujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Tizhengzhibiaozushujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Yinpinxiazaishujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Tizhengzhibiaozushijianshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
 func (zhi *Zfzhi) Jianceshujushujuchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
-func (zhi *Zfzhi) Fuwufankuishujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Zhanghaoshijianshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Yinpinbofangshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Zidianshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Zhanghaojueseshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Liuyanshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Jibingshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Tizhengzhibiaozuzhibiaoshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Shijianshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Wenzhangshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-func (zhi *Zfzhi) Jueseziyuanshujuchangdu() int {
-	return zhi.Shuzi5() * zhi.Shuzi10()
-}
-
 func (zhi *Zfzhi) Yinpinshujujiegouchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
@@ -440,4 +375,275 @@ func (zhi *Zfzhi) Wenzhangshujujiegouchangdu() int {
 }
 func (zhi *Zfzhi) Jueseziyuanshujujiegouchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+
+func (zhi *Zfzhi) Jiegouchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+
+func (zhi *Zfzhi) Shujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zfzhi *Zfzhi)Jueseshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Juesejiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yinpinshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yinpinjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaoshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaojiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Shebeishujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Shebeijiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Ziyuanshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Ziyuanjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zhanghaoshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zhanghaojiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yonghushujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yonghujiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaozushujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaozujiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yinpinxiazaishujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yinpinxiazaijiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaozushijianshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaozushijianjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Jiancefenxishujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Jiancefenxijiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Fuwufankuishujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Fuwufankuijiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zhanghaoshijianshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zhanghaoshijianjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yinpinbofangshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Yinpinbofangjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zidianshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zidianjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zhanghaojueseshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Zhanghaojuesejiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Liuyanshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Liuyanjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Jibingshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Jibingjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaozuzhibiaoshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Tizhengzhibiaozuzhibiaojiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Shijianshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Shijianjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Wenzhangshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Wenzhangjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Jueseziyuanshujuchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}
+
+func (zfzhi *Zfzhi)Jueseziyuanjiegouchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
 }

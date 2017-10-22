@@ -370,3 +370,6 @@ func (zf *Zf) Wenzhangshujujiegou(xiaoxie bool) string {
 func (zf *Zf) Jueseziyuanshujujiegou(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Jiancefenxi(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}

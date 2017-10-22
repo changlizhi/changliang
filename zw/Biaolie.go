@@ -383,14 +383,8 @@ func (zw *Zw) Yonghujuesebiao() string {
 func (zw *Zw) Yonghujueseshuju() string {
 	return "用户角色数据"
 }
-func (zw *Zw) Jueseshuju() string {
-	return "角色数据"
-}
 func (zw *Zw) Juesebiao() string {
 	return "角色表"
-}
-func (zw *Zw) Yonghushuju() string {
-	return "用户数据"
 }
 func (zw *Zw) Yonghubiao() string {
 	return "用户表"
@@ -422,69 +416,6 @@ func (zw *Zw) Tizhengzhibiaozu() string {
 func (zw *Zw) Tizhengzhibiao() string {
 	return "体征指标"
 }
-func (zw *Zw) Yinpinshuju() string {
-	return "音频数据"
-}
-func (zw *Zw) Tizhengzhibiaoshuju() string {
-	return "体征指标数据"
-}
-func (zw *Zw) Shebeishuju() string {
-	return "设备数据"
-}
-func (zw *Zw) Ziyuanshuju() string {
-	return "资源数据"
-}
-func (zw *Zw) Zhanghaoshuju() string {
-	return "帐号数据"
-}
-func (zw *Zw) Tizhengzhibiaozushuju() string {
-	return "体征指标组数据"
-}
-func (zw *Zw) Yinpinxiazaishuju() string {
-	return "音频下载数据"
-}
-func (zw *Zw) Tizhengzhibiaozushijianshuju() string {
-	return "体征指标组时间数据"
-}
-func (zw *Zw) Jiancefenxishuju() string {
-	return "监测分析数据"
-}
-func (zw *Zw) Fuwufankuishuju() string {
-	return "服务反馈数据"
-}
-func (zw *Zw) Zhanghaoshijianshuju() string {
-	return "帐号时间数据"
-}
-func (zw *Zw) Yinpinbofangshuju() string {
-	return "音频播放数据"
-}
-func (zw *Zw) Zidianshuju() string {
-	return "字典数据"
-}
-func (zw *Zw) Zhanghaojueseshuju() string {
-	return "帐号角色数据"
-}
-func (zw *Zw) Liuyanshuju() string {
-	return "留言数据"
-}
-func (zw *Zw) Jibingshuju() string {
-	return "疾病数据"
-}
-func (zw *Zw) Tizhengzhibiaozuzhibiaoshuju() string {
-	return "体征指标组指标数据"
-}
-func (zw *Zw) Shijianshuju() string {
-	return "时间数据"
-}
-func (zw *Zw) Wenzhangshuju() string {
-	return "文章数据"
-}
-func (zw *Zw) Jueseziyuanshuju() string {
-	return "角色资源数据"
-}
-
-
-
 func (zw *Zw) Yinpinshujujiegou() string {
 	return "音频数据结构"
 }
@@ -542,6 +473,155 @@ func (zw *Zw) Shijianshujujiegou() string {
 func (zw *Zw) Wenzhangshujujiegou() string {
 	return "文章数据结构"
 }
-func (zw *Zw) Jueseziyuanshujujiegou() string {
-	return "角色资源数据结构"
+func (zw *Zw) Jiegou() string {
+	return "结构"
+}
+func (zw *Zw) Shuju() string {
+	return "数据"
+}
+func (zw *Zw) Jiancefenxi() string {
+	return "监测分析"
+}
+
+
+func (zw *Zw)Jueseshuju()string{
+	return "角色数据"
+}
+func (zw *Zw)Juesejiegou()string{
+	return "角色结构"
+}
+func (zw *Zw)Yinpinshuju()string{
+	return "音频数据"
+}
+func (zw *Zw)Yinpinjiegou()string{
+	return "音频结构"
+}
+func (zw *Zw)Tizhengzhibiaoshuju()string{
+	return "体征指标数据"
+}
+func (zw *Zw)Tizhengzhibiaojiegou()string{
+	return "体征指标结构"
+}
+func (zw *Zw)Shebeishuju()string{
+	return "设备数据"
+}
+func (zw *Zw)Shebeijiegou()string{
+	return "设备结构"
+}
+func (zw *Zw)Ziyuanshuju()string{
+	return "资源数据"
+}
+func (zw *Zw)Ziyuanjiegou()string{
+	return "资源结构"
+}
+func (zw *Zw)Zhanghaoshuju()string{
+	return "帐号数据"
+}
+func (zw *Zw)Zhanghaojiegou()string{
+	return "帐号结构"
+}
+func (zw *Zw)Yonghushuju()string{
+	return "用户数据"
+}
+func (zw *Zw)Yonghujiegou()string{
+	return "用户结构"
+}
+func (zw *Zw)Tizhengzhibiaozushuju()string{
+	return "体征指标组数据"
+}
+func (zw *Zw)Tizhengzhibiaozujiegou()string{
+	return "体征指标组结构"
+}
+func (zw *Zw)Yinpinxiazaishuju()string{
+	return "音频下载数据"
+}
+func (zw *Zw)Yinpinxiazaijiegou()string{
+	return "音频下载结构"
+}
+func (zw *Zw)Tizhengzhibiaozushijianshuju()string{
+	return "体征指标组时间数据"
+}
+func (zw *Zw)Tizhengzhibiaozushijianjiegou()string{
+	return "体征指标组时间结构"
+}
+func (zw *Zw)Jiancefenxishuju()string{
+	return "监测分析数据"
+}
+func (zw *Zw)Jiancefenxijiegou()string{
+	return "监测分析结构"
+}
+func (zw *Zw)Fuwufankuishuju()string{
+	return "服务反馈数据"
+}
+func (zw *Zw)Fuwufankuijiegou()string{
+	return "服务反馈结构"
+}
+func (zw *Zw)Zhanghaoshijianshuju()string{
+	return "帐号时间数据"
+}
+func (zw *Zw)Zhanghaoshijianjiegou()string{
+	return "帐号时间结构"
+}
+func (zw *Zw)Yinpinbofangshuju()string{
+	return "音频播放数据"
+}
+func (zw *Zw)Yinpinbofangjiegou()string{
+	return "音频播放结构"
+}
+func (zw *Zw)Zidianshuju()string{
+	return "字典数据"
+}
+func (zw *Zw)Zidianjiegou()string{
+	return "字典结构"
+}
+func (zw *Zw)Zhanghaojueseshuju()string{
+	return "帐号角色数据"
+}
+func (zw *Zw)Zhanghaojuesejiegou()string{
+	return "帐号角色结构"
+}
+func (zw *Zw)Liuyanshuju()string{
+	return "留言数据"
+}
+func (zw *Zw)Liuyanjiegou()string{
+	return "留言结构"
+}
+func (zw *Zw)Jibingshuju()string{
+	return "疾病数据"
+}
+func (zw *Zw)Jibingjiegou()string{
+	return "疾病结构"
+}
+func (zw *Zw)Tizhengzhibiaozuzhibiaoshuju()string{
+	return "体征指标组指标数据"
+}
+func (zw *Zw)Tizhengzhibiaozuzhibiaojiegou()string{
+	return "体征指标组指标结构"
+}
+func (zw *Zw)Shijianshuju()string{
+	return "时间数据"
+}
+func (zw *Zw)Shijianjiegou()string{
+	return "时间结构"
+}
+func (zw *Zw)Wenzhangshuju()string{
+	return "文章数据"
+}
+
+func (zw *Zw)Wenzhangjiegou()string{
+
+	return "文章结构"
+
+}
+
+func (zw *Zw)Jueseziyuanshuju()string{
+
+	return "角色资源数据"
+
+}
+
+func (zw *Zw)Jueseziyuanjiegou()string{
+
+	return "角色资源结构"
+
 }
