@@ -16,7 +16,7 @@ func (zf *Zf) Zhengchang(xiaoxie bool) string {
 func (zf *Zf) Wancheng(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
-func (zf *Zf) Yiban(xiaoxie bool) string {//一般的数据表都不做特殊处理
+func (zf *Zf) Yiban(xiaoxie bool) string { //一般的数据表都不做特殊处理
 	return fanshe.Fangfaming(xiaoxie)
 }
 func (zf *Zf) Yemianlianjie(xiaoxie bool) string {
