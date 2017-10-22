@@ -707,3 +707,135 @@ func (zhi *Zfzhi) Tizhengzhibiaoleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+func (zhi *Zfzhi) Jueseshujuleixingzhi() string {
+	if z := zf.Zfs.Jueseshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Yinpinshujuleixingzhi() string {
+	if z := zf.Zfs.Yinpinshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaoshujuleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaoshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Shebeishujuleixingzhi() string {
+	if z := zf.Zfs.Shebeishuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Ziyuanshujuleixingzhi() string {
+	if z := zf.Zfs.Ziyuanshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Zhanghaoshujuleixingzhi() string {
+	if z := zf.Zfs.Zhanghaoshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Yonghushujuleixingzhi() string {
+	if z := zf.Zfs.Yonghushuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozushujuleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaozushuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Yinpinxiazaishujuleixingzhi() string {
+	if z := zf.Zfs.Yinpinxiazaishuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozushijianshujuleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaozushijianshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Jianceshujushujuleixingzhi() string {
+	if z := zf.Zfs.Jianceshujushuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Fuwufankuishujuleixingzhi() string {
+	if z := zf.Zfs.Fuwufankuishuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Zhanghaoshijianshujuleixingzhi() string {
+	if z := zf.Zfs.Zhanghaoshijianshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Yinpinbofangshujuleixingzhi() string {
+	if z := zf.Zfs.Yinpinbofangshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Zidianshujuleixingzhi() string {
+	if z := zf.Zfs.Zidianshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Zhanghaojueseshujuleixingzhi() string {
+	if z := zf.Zfs.Zhanghaojueseshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Liuyanshujuleixingzhi() string {
+	if z := zf.Zfs.Liuyanshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Jibingshujuleixingzhi() string {
+	if z := zf.Zfs.Jibingshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozuzhibiaoshujuleixingzhi() string {
+	if z := zf.Zfs.Tizhengzhibiaozuzhibiaoshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Shijianshujuleixingzhi() string {
+	if z := zf.Zfs.Shijianshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Wenzhangshujuleixingzhi() string {
+	if z := zf.Zfs.Wenzhangshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}
+func (zhi *Zfzhi) Jueseziyuanshujuleixingzhi() string {
+	if z := zf.Zfs.Jueseziyuanshuju(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}

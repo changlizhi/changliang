@@ -295,7 +295,7 @@ func (zhi *Zfzhi) Zhutibianmachangdu() int {
 func (zhi *Zfzhi) Ziduanmingchengchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
-func (zhi *Zfzhi) Jianceshujuchangdu() int {
+func (zhi *Zfzhi) Jiancefenxichangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
 func (zhi *Zfzhi) Tizhengzhibiaozuzhibiaochangdu() int {
@@ -308,5 +308,71 @@ func (zhi *Zfzhi) Tizhengzhibiaozuchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
 func (zhi *Zfzhi) Tizhengzhibiaochangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Jueseshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Yinpinshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Tizhengzhibiaoshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Shebeishujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Ziyuanshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Zhanghaoshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Yonghushujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozushujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Yinpinxiazaishujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozushijianshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Jianceshujushujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Fuwufankuishujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Zhanghaoshijianshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Yinpinbofangshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Zidianshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Zhanghaojueseshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Liuyanshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Jibingshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Tizhengzhibiaozuzhibiaoshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Shijianshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Wenzhangshujuchangdu() int {
+	return zhi.Shuzi5() * zhi.Shuzi10()
+}
+func (zhi *Zfzhi) Jueseziyuanshujuchangdu() int {
 	return zhi.Shuzi5() * zhi.Shuzi10()
 }
