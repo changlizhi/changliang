@@ -670,3 +670,10 @@ func (zhi *Zfzhi) Zhutibianmaleixingzhi() string {
 	}
 	return zhi.Kzf()
 }
+func (zhi *Zfzhi) Ziduanmingchengleixingzhi() string {
+
+	if z := zf.Zfs.Ziduanmingcheng(false); z != zhi.Kzf() {
+		return zf.Zfs.String(true)
+	}
+	return zhi.Kzf()
+}

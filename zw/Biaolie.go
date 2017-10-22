@@ -404,3 +404,6 @@ func (zw *Zw) Ziduanleixing() string {
 func (zw *Zw) Zhutibianma() string {
 	return "主体编码"
 }
+func (zw *Zw) Ziduanmingcheng() string {
+	return "字段名称"
+}
