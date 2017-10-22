@@ -482,3 +482,66 @@ func (zw *Zw) Wenzhangshuju() string {
 func (zw *Zw) Jueseziyuanshuju() string {
 	return "角色资源数据"
 }
+
+
+
+func (zw *Zw) Yinpinshujujiegou() string {
+	return "音频数据结构"
+}
+func (zw *Zw) Tizhengzhibiaoshujujiegou() string {
+	return "体征指标数据结构"
+}
+func (zw *Zw) Shebeishujujiegou() string {
+	return "设备数据结构"
+}
+func (zw *Zw) Ziyuanshujujiegou() string {
+	return "资源数据结构"
+}
+func (zw *Zw) Zhanghaoshujujiegou() string {
+	return "帐号数据结构"
+}
+func (zw *Zw) Tizhengzhibiaozushujujiegou() string {
+	return "体征指标组数据结构"
+}
+func (zw *Zw) Yinpinxiazaishujujiegou() string {
+	return "音频下载数据结构"
+}
+func (zw *Zw) Tizhengzhibiaozushijianshujujiegou() string {
+	return "体征指标组时间数据结构"
+}
+func (zw *Zw) Jiancefenxishujujiegou() string {
+	return "监测分析数据结构"
+}
+func (zw *Zw) Fuwufankuishujujiegou() string {
+	return "服务反馈数据结构"
+}
+func (zw *Zw) Zhanghaoshijianshujujiegou() string {
+	return "帐号时间数据结构"
+}
+func (zw *Zw) Yinpinbofangshujujiegou() string {
+	return "音频播放数据结构"
+}
+func (zw *Zw) Zidianshujujiegou() string {
+	return "字典数据结构"
+}
+func (zw *Zw) Zhanghaojueseshujujiegou() string {
+	return "帐号角色数据结构"
+}
+func (zw *Zw) Liuyanshujujiegou() string {
+	return "留言数据结构"
+}
+func (zw *Zw) Jibingshujujiegou() string {
+	return "疾病数据结构"
+}
+func (zw *Zw) Tizhengzhibiaozuzhibiaoshujujiegou() string {
+	return "体征指标组指标数据结构"
+}
+func (zw *Zw) Shijianshujujiegou() string {
+	return "时间数据结构"
+}
+func (zw *Zw) Wenzhangshujujiegou() string {
+	return "文章数据结构"
+}
+func (zw *Zw) Jueseziyuanshujujiegou() string {
+	return "角色资源数据结构"
+}
