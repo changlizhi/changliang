@@ -103,265 +103,265 @@ func (zf *Zf) Jianceshujushuju(xiaoxie bool) string {
 func (zf *Zf) Jiegou(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
-func (zf *Zf)Jueseshuju(xiaoxie bool) string {
+func (zf *Zf) Jueseshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Juesejiegou(xiaoxie bool) string {
+func (zf *Zf) Juesejiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yinpinshuju(xiaoxie bool) string {
+func (zf *Zf) Yinpinshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yinpinjiegou(xiaoxie bool) string {
+func (zf *Zf) Yinpinjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaoshuju(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaoshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaojiegou(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaojiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Shebeishuju(xiaoxie bool) string {
+func (zf *Zf) Shebeishuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Shebeijiegou(xiaoxie bool) string {
+func (zf *Zf) Shebeijiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Ziyuanshuju(xiaoxie bool) string {
+func (zf *Zf) Ziyuanshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Ziyuanjiegou(xiaoxie bool) string {
+func (zf *Zf) Ziyuanjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zhanghaoshuju(xiaoxie bool) string {
+func (zf *Zf) Zhanghaoshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zhanghaojiegou(xiaoxie bool) string {
+func (zf *Zf) Zhanghaojiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yonghushuju(xiaoxie bool) string {
+func (zf *Zf) Yonghushuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yonghujiegou(xiaoxie bool) string {
+func (zf *Zf) Yonghujiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaozushuju(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaozushuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaozujiegou(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaozujiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yinpinxiazaishuju(xiaoxie bool) string {
+func (zf *Zf) Yinpinxiazaishuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yinpinxiazaijiegou(xiaoxie bool) string {
+func (zf *Zf) Yinpinxiazaijiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaozushijianshuju(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaozushijianshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaozushijianjiegou(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaozushijianjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Jiancefenxishuju(xiaoxie bool) string {
+func (zf *Zf) Jiancefenxishuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Jiancefenxijiegou(xiaoxie bool) string {
+func (zf *Zf) Jiancefenxijiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Fuwufankuishuju(xiaoxie bool) string {
+func (zf *Zf) Fuwufankuishuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Fuwufankuijiegou(xiaoxie bool) string {
+func (zf *Zf) Fuwufankuijiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zhanghaoshijianshuju(xiaoxie bool) string {
+func (zf *Zf) Zhanghaoshijianshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zhanghaoshijianjiegou(xiaoxie bool) string {
+func (zf *Zf) Zhanghaoshijianjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yinpinbofangshuju(xiaoxie bool) string {
+func (zf *Zf) Yinpinbofangshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Yinpinbofangjiegou(xiaoxie bool) string {
+func (zf *Zf) Yinpinbofangjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zidianshuju(xiaoxie bool) string {
+func (zf *Zf) Zidianshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zidianjiegou(xiaoxie bool) string {
+func (zf *Zf) Zidianjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zhanghaojueseshuju(xiaoxie bool) string {
+func (zf *Zf) Zhanghaojueseshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Zhanghaojuesejiegou(xiaoxie bool) string {
+func (zf *Zf) Zhanghaojuesejiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Liuyanshuju(xiaoxie bool) string {
+func (zf *Zf) Liuyanshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Liuyanjiegou(xiaoxie bool) string {
+func (zf *Zf) Liuyanjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Jibingshuju(xiaoxie bool) string {
+func (zf *Zf) Jibingshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Jibingjiegou(xiaoxie bool) string {
+func (zf *Zf) Jibingjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaozuzhibiaoshuju(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaozuzhibiaoshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Tizhengzhibiaozuzhibiaojiegou(xiaoxie bool) string {
+func (zf *Zf) Tizhengzhibiaozuzhibiaojiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Shijianshuju(xiaoxie bool) string {
+func (zf *Zf) Shijianshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Shijianjiegou(xiaoxie bool) string {
+func (zf *Zf) Shijianjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Wenzhangshuju(xiaoxie bool) string {
+func (zf *Zf) Wenzhangshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Wenzhangjiegou(xiaoxie bool) string {
+func (zf *Zf) Wenzhangjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Jueseziyuanshuju(xiaoxie bool) string {
+func (zf *Zf) Jueseziyuanshuju(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
 }
 
-func (zf *Zf)Jueseziyuanjiegou(xiaoxie bool) string {
+func (zf *Zf) Jueseziyuanjiegou(xiaoxie bool) string {
 
 	return fanshe.Fangfaming(xiaoxie)
 
