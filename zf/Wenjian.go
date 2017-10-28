@@ -100,3 +100,6 @@ func (zf *Zf) Desjiami(xiaoxie bool) string {
 func (zf *Zf) Yibangongju(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Charujiegou(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
