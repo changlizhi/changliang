@@ -483,145 +483,154 @@ func (zw *Zw) Jiancefenxi() string {
 	return "监测分析"
 }
 
-
-func (zw *Zw)Jueseshuju()string{
+func (zw *Zw)Jueseshuju() string {
 	return "角色数据"
 }
-func (zw *Zw)Juesejiegou()string{
+func (zw *Zw)Juesejiegou() string {
 	return "角色结构"
 }
-func (zw *Zw)Yinpinshuju()string{
+func (zw *Zw)Yinpinshuju() string {
 	return "音频数据"
 }
-func (zw *Zw)Yinpinjiegou()string{
+func (zw *Zw)Yinpinjiegou() string {
 	return "音频结构"
 }
-func (zw *Zw)Tizhengzhibiaoshuju()string{
+func (zw *Zw)Tizhengzhibiaoshuju() string {
 	return "体征指标数据"
 }
-func (zw *Zw)Tizhengzhibiaojiegou()string{
+func (zw *Zw)Tizhengzhibiaojiegou() string {
 	return "体征指标结构"
 }
-func (zw *Zw)Shebeishuju()string{
+func (zw *Zw)Shebeishuju() string {
 	return "设备数据"
 }
-func (zw *Zw)Shebeijiegou()string{
+func (zw *Zw)Shebeijiegou() string {
 	return "设备结构"
 }
-func (zw *Zw)Ziyuanshuju()string{
+func (zw *Zw)Ziyuanshuju() string {
 	return "资源数据"
 }
-func (zw *Zw)Ziyuanjiegou()string{
+func (zw *Zw)Ziyuanjiegou() string {
 	return "资源结构"
 }
-func (zw *Zw)Zhanghaoshuju()string{
+func (zw *Zw)Zhanghaoshuju() string {
 	return "帐号数据"
 }
-func (zw *Zw)Zhanghaojiegou()string{
+func (zw *Zw)Zhanghaojiegou() string {
 	return "帐号结构"
 }
-func (zw *Zw)Yonghushuju()string{
+func (zw *Zw)Yonghushuju() string {
 	return "用户数据"
 }
-func (zw *Zw)Yonghujiegou()string{
+func (zw *Zw)Yonghujiegou() string {
 	return "用户结构"
 }
-func (zw *Zw)Tizhengzhibiaozushuju()string{
+func (zw *Zw)Tizhengzhibiaozushuju() string {
 	return "体征指标组数据"
 }
-func (zw *Zw)Tizhengzhibiaozujiegou()string{
+func (zw *Zw)Tizhengzhibiaozujiegou() string {
 	return "体征指标组结构"
 }
-func (zw *Zw)Yinpinxiazaishuju()string{
+func (zw *Zw)Yinpinxiazaishuju() string {
 	return "音频下载数据"
 }
-func (zw *Zw)Yinpinxiazaijiegou()string{
+func (zw *Zw)Yinpinxiazaijiegou() string {
 	return "音频下载结构"
 }
-func (zw *Zw)Tizhengzhibiaozushijianshuju()string{
+func (zw *Zw)Tizhengzhibiaozushijianshuju() string {
 	return "体征指标组时间数据"
 }
-func (zw *Zw)Tizhengzhibiaozushijianjiegou()string{
+func (zw *Zw)Tizhengzhibiaozushijianjiegou() string {
 	return "体征指标组时间结构"
 }
-func (zw *Zw)Jiancefenxishuju()string{
+func (zw *Zw)Jiancefenxishuju() string {
 	return "监测分析数据"
 }
-func (zw *Zw)Jiancefenxijiegou()string{
+func (zw *Zw)Jiancefenxijiegou() string {
 	return "监测分析结构"
 }
-func (zw *Zw)Fuwufankuishuju()string{
+func (zw *Zw)Fuwufankuishuju() string {
 	return "服务反馈数据"
 }
-func (zw *Zw)Fuwufankuijiegou()string{
+func (zw *Zw)Fuwufankuijiegou() string {
 	return "服务反馈结构"
 }
-func (zw *Zw)Zhanghaoshijianshuju()string{
+func (zw *Zw)Zhanghaoshijianshuju() string {
 	return "帐号时间数据"
 }
-func (zw *Zw)Zhanghaoshijianjiegou()string{
+func (zw *Zw)Zhanghaoshijianjiegou() string {
 	return "帐号时间结构"
 }
-func (zw *Zw)Yinpinbofangshuju()string{
+func (zw *Zw)Yinpinbofangshuju() string {
 	return "音频播放数据"
 }
-func (zw *Zw)Yinpinbofangjiegou()string{
+func (zw *Zw)Yinpinbofangjiegou() string {
 	return "音频播放结构"
 }
-func (zw *Zw)Zidianshuju()string{
+func (zw *Zw)Zidianshuju() string {
 	return "字典数据"
 }
-func (zw *Zw)Zidianjiegou()string{
+func (zw *Zw)Zidianjiegou() string {
 	return "字典结构"
 }
-func (zw *Zw)Zhanghaojueseshuju()string{
+func (zw *Zw)Zhanghaojueseshuju() string {
 	return "帐号角色数据"
 }
-func (zw *Zw)Zhanghaojuesejiegou()string{
+func (zw *Zw)Zhanghaojuesejiegou() string {
 	return "帐号角色结构"
 }
-func (zw *Zw)Liuyanshuju()string{
+func (zw *Zw)Liuyanshuju() string {
 	return "留言数据"
 }
-func (zw *Zw)Liuyanjiegou()string{
+func (zw *Zw)Liuyanjiegou() string {
 	return "留言结构"
 }
-func (zw *Zw)Jibingshuju()string{
+func (zw *Zw)Jibingshuju() string {
 	return "疾病数据"
 }
-func (zw *Zw)Jibingjiegou()string{
+func (zw *Zw)Jibingjiegou() string {
 	return "疾病结构"
 }
-func (zw *Zw)Tizhengzhibiaozuzhibiaoshuju()string{
+func (zw *Zw)Tizhengzhibiaozuzhibiaoshuju() string {
 	return "体征指标组指标数据"
 }
-func (zw *Zw)Tizhengzhibiaozuzhibiaojiegou()string{
+func (zw *Zw)Tizhengzhibiaozuzhibiaojiegou() string {
 	return "体征指标组指标结构"
 }
-func (zw *Zw)Shijianshuju()string{
+func (zw *Zw)Shijianshuju() string {
 	return "时间数据"
 }
-func (zw *Zw)Shijianjiegou()string{
+func (zw *Zw)Shijianjiegou() string {
 	return "时间结构"
 }
-func (zw *Zw)Wenzhangshuju()string{
+func (zw *Zw)Wenzhangshuju() string {
 	return "文章数据"
 }
 
-func (zw *Zw)Wenzhangjiegou()string{
+func (zw *Zw)Wenzhangjiegou() string {
 
 	return "文章结构"
 
 }
 
-func (zw *Zw)Jueseziyuanshuju()string{
+func (zw *Zw)Jueseziyuanshuju() string {
 
 	return "角色资源数据"
 
 }
 
-func (zw *Zw)Jueseziyuanjiegou()string{
+func (zw *Zw)Jueseziyuanjiegou() string {
 
 	return "角色资源结构"
+
+}
+func (zw *Zw)Ziduanyanzheng() string {
+
+	return "字段验证"
+
+}
+func (zw *Zw)Ziduanchangdu() string {
+
+	return "字段长度"
 
 }

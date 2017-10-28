@@ -647,3 +647,13 @@ func (zfzhi *Zfzhi)Jueseziyuanjiegouchangdu() int {
 	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
 
 }
+func (zfzhi *Zfzhi)Ziduanyanzhengchangdu() int {
+
+	return zfzhi.Shuzi1() * zfzhi.Shuzi10()
+
+}
+func (zfzhi *Zfzhi)Ziduanchangduchangdu() int {
+
+	return zfzhi.Shuzi5() * zfzhi.Shuzi10()
+
+}

@@ -1135,3 +1135,15 @@ func (zfzhi *Zfzhi)Shujuleixingzhi()string{
 	}
 	return zfzhi.Kzf()
 }
+func (zfzhi *Zfzhi)Ziduanyanzhengleixingzhi()string{
+	if z :=zf.Zfs.Ziduanyanzheng(false);z!=zfzhi.Kzf(){
+		return zf.Zfs.String(true)
+	}
+	return zfzhi.Kzf()
+}
+func (zfzhi *Zfzhi)Ziduanchangduleixingzhi()string{
+	if z :=zf.Zfs.Ziduanchangdu(false);z!=zfzhi.Kzf(){
+		return zf.Zfs.String(true)
+	}
+	return zfzhi.Kzf()
+}
