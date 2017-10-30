@@ -193,3 +193,6 @@ func (zf *Zf) Quanbu(xiaoxie bool) string {
 func (zf *Zf) Liebiao(xiaoxie bool) string {
 	return fanshe.Fangfaming(xiaoxie)
 }
+func (zf *Zf) Root(xiaoxie bool) string {
+	return fanshe.Fangfaming(xiaoxie)
+}
